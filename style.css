@@ -1,0 +1,341 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: roboto,lato;
+}
+nav, ul{
+    text-align: right;
+}
+.nav ul,li{
+    list-style: none;
+    display: inline;
+    padding: 40px;
+}
+
+ul, li, a{
+    text-decoration: none;
+     color: #566593;
+     transition: 0.4s;
+     font-family: ROboto;
+     font-style: normal;
+     font-weight: bold;
+     font-size: 18px;
+     line-height: 21px;
+}
+
+ul, li, a:hover{
+    color: #29f4ff;
+}
+
+.nav-logo{
+    position: absolute;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.02em;
+    color: #566593;
+    left: 63px;
+    top: 4px;
+}
+
+.nav-insta{
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    left: 670px;
+    top: 30px;
+}
+
+.nav-contact{
+    position: absolute;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.02em;
+    color: #566593;
+    right: 63px;
+    top: 25px;
+}
+/*************************NAV BAR************************************/
+
+/************************header***************************/
+.text-section-hl{
+        font-family: lato;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 43px;
+    letter-spacing: 0.05em;
+    position: absolute;
+    width: 550px;
+    height: 127px;
+    left: 133px;
+    padding-top: 170px;
+}
+span{
+    font-family: lato;
+    font-style: normal;SS
+    font-weight:bold;
+    font-size: 36px;
+    line-height: 43px;
+    letter-spacing: 0.05em;
+    color: #285ffd;
+}
+.text-section-p{
+        font-family: lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.05em;
+    position: absolute;
+    width: 550px;
+    height: 127px;
+    left: 133px;
+    padding-top: 360px;
+}
+
+.header-img{
+    position: absolute;
+    width: 200px;
+    height: 570px;
+    left: 115vh;
+    top: 120px;
+    border-radius: 2px;
+}
+
+.header a{
+    text-decoration: none;
+    color: #566593 ;
+    font-family: Roboto;
+    position: absolute;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    padding-top: 860px;
+    padding-left: 63px;
+}
+/******************************about-text**************************/
+/*******************************about-section-l******************/
+
+.about-img-l{
+     position: absolute;
+    width: 50px;
+    height: 83px;
+    left: 120px;
+    top: 1000px;
+    border-radius: 5px
+}
+
+.about-text{
+    position: absolute;
+    padding-left: 50%;
+    padding-top: 1120px;
+}
+.about-text h3{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 35px;
+    letter-spacing: 0.02em;
+    color: #1aff05;
+}
+.line{
+    width: 157px;
+    height: 4px;
+    background: #C2FCFE;
+}
+.about-text p{
+    width: 440px;
+    height: 222px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.05em;
+    color: #3C3C3C;
+    padding-top: 40px;
+}
+
+/*******************************ABOUT SECTION****************************/
+
+
+/************************************SERVICES SECTION******************************/
+.services-section{
+    
+}
+.services-section h3{
+    position: absolute;
+    padding-left: 50%;
+    padding-top: 1700px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 35px;
+    letter-spacing: 0.02em;
+    color: #0aff54;
+}
+.services-text{
+    position: absolute;
+    padding-top: 1900px;
+    padding-left: 80px;
+    width: 562px;
+    height: 518px;
+}
+.services-text{
+    position: absolute;
+    padding-top: 1900px;
+    padding-left: 80px ;
+    width: 562px;
+    height: 418px;
+}
+.services-text P{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500px;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 0.02em;
+    color: #3C3C3C;
+}
+
+.services-text,P, span{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500px;
+    font-size: 36px;
+    line-height: 42px;
+    letter-spacing: 0.02em;
+    color: #0F0FF0
+}
+
+.services-img{
+    position: absolute;
+    padding-left: 750px;
+    padding-top: 1820px;
+}
+/******************************SERVICE SECTION *************************/
+
+/********************************CONTACT FORM*****************************/
+.container{
+    padding-top: 2600px;
+}
+.secttion-form{
+    padding-bottom: 120px;
+}
+.section-form .btn{
+    margin-top: 10px;
+}
+.form-control{
+    padding-left: 500px;
+    border: 0;
+    border-bottom: 2px solid #29f4ff;
+    border-radius: 0;
+    background-color: transparent;
+    box-shadow: none;
+    outline: none;
+    -webkit-appearance: none;
+}
+
+textarea{
+    margin-top: 10px;
+    min-height: 200px;
+    resize: none;
+}
+
+.form-control:focus{
+    box-shadow: none;
+    border-bottom-color: #3700ff;
+}
+.btn{
+    min-height: 45px;
+    line-height: 10px;
+    padding: 0 10px;
+    font-size: 16px;
+    font-weight: 600px;
+    text-transform: uppercase;
+    border-radius: 0;
+    transition: box-shadow 0.25s ease-in-out;
+    -moz-transition:box-shadow 0.25s ease-in-out ;
+    -o-transform: box-shadow 0.25s ease-in-out;
+    -ms-transition: box-shadow 0.25s ease-in-out;
+}
+
+
+
+.btn-fill{
+    color:#00C6CE;
+    background-color: #000000;
+}
+
+.btn-border{
+    border-radius: 500px;
+    background-color: transparent;
+    color: #212121;
+    border: 1px solid #5b03ffee;
+}
+
+.btn-fill:hover,
+.btn-fill:focus{
+    color: #00C6CE;
+}
+
+.btn:hover,
+.btn:focus{
+    box-shadow: 0px 10px 18px 0px rgba(0, 0, 0, 0.15);
+}
+
+.form-hl{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 35px;
+    letter-spacing: 0.02em;
+    padding-bottom: 60px;
+    color: #285FFD;
+}
+
+
+
+/***********************************FO0TER SECTION****************************/
+
+
+footer{
+    height: 240px;
+    background: #285FFD;
+}
+footer ul{
+    padding-top: 600px;
+  padding-left:200px ;
+}
+footer  ul, li{
+    padding: 30px;
+    padding-top: 80px;
+    padding-right: 180px;
+    list-style: none;
+}
+
+.icons img{
+    border-radius: 30%;
+    width: 50px;
+    height: 50px;
+}
+.footer-text{
+    padding-top:10px ;
+    padding-left: 80px;
+    font-family: ROBOTO;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 21px;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+}

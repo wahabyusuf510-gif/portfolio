@@ -1,0 +1,3 @@
+<script>
+    AOS.imit();
+</script>
